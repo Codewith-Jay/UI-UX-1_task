@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sample</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        .main{
+            flex-direction: row;
+            height: 80%;
+        }
+        .left {
+            background-color: lightcoral;
+            position: absolute;
+            border: 2px solid black;
+            /* float: left; */
+
+            width: 29%;
+            height: 85%;
+            justify-content: center;
+            align-items: center;
+        }
+        .right {
+            border: 2px solid black;
+            float: right;
+            width: 70%;
+            height: 80%;
+        }
+        
+        .bottom{
+            width: 100%;
+            height: 40%;
+            margin-bottom: 5px;
+            margin-top: 5px;
+        }
+        .btn{
+            background-color: aquamarine;
+            border-radius: 7px;
+            width: 100%;
+            position: fixed;
+            bottom: 0px;
+            height: 60px;
+        }
+
+        .img{
+            height:507px ;
+            width:800Px ;
+        }
+        
+        .bttn{
+            background-color: antiquewhite;
+            border-radius: 7px;
+            width:95%;
+            height: 20%;
+            margin-left: 4px;
+            margin-right: 4Px;
+            margin-top: 10Px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+<div class="main">
+    <div class="left">
+        <button class="bttn">Click Here</button><br>
+        <button class="bttn">Click Here</button><br>
+        <a href="">Click Here</a>
+    </div>
+    
+    <div class="right">
+        <img class="img" src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"
+        alt="Unable to Open Check your internet connection">
+    </div>
+    
+    <div class="bottom">
+        <Button class="btn">Click Here</Button>
+        
+    </div>
+</div>
+</body>
+
+</html>
